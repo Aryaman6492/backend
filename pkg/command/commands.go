@@ -3,8 +3,8 @@ package command
 type OperatorCommandType string
 
 const (
-	OperatorCommandAppNameLabelKey  string = "kubescape.io/app-name"  // holds the app name label, which should execute the command (optional)
-	OperatorCommandNodeNameLabelKey string = "kubescape.io/node-name" // holds the node name label, app running on this node name should execute the command (optional)
+	OperatorCommandAppNameLabelKey  string = "seclogic.io/app-name"  // holds the app name label, which should execute the command (optional)
+	OperatorCommandNodeNameLabelKey string = "seclogic.io/node-name" // holds the node name label, app running on this node name should execute the command (optional)
 
 	// command types will be defined here
 	OperatorCommandTypeRuntimeResponse OperatorCommandType = "RuntimeResponse"

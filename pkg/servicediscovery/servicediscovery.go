@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kubescape/backend/pkg/servicediscovery/schema"
+	"github.com/Aryaman6492/backend/pkg/servicediscovery/schema"
 )
 
 var supporterVersions = []string{

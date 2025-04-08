@@ -1,6 +1,6 @@
 package v1
 
-import "github.com/kubescape/backend/pkg/servicediscovery/schema"
+import "github.com/Aryaman6492/backend/pkg/servicediscovery/schema"
 
 type ServiceDiscoveryClientV1 struct {
 	host   string

@@ -8,7 +8,7 @@ import (
 
 	_ "embed"
 
-	"github.com/kubescape/backend/pkg/server/v1/systemreports"
+	"github.com/Aryaman6492/backend/pkg/server/v1/systemreports"
 	"github.com/stretchr/testify/assert"
 )
 

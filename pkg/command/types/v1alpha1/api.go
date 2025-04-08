@@ -1,7 +1,7 @@
 package v1alpha1
 
 import (
-	"github.com/kubescape/backend/pkg/command/types"
+	"github.com/Aryaman6492/backend/pkg/command/types"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 

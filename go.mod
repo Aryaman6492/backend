@@ -1,4 +1,4 @@
-module github.com/kubescape/backend
+module github.com/Aryaman6492/backend
 
 go 1.21.1
 

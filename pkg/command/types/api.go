@@ -1,7 +1,7 @@
 package types
 
 const (
-	OperatorCommandGroup  string = "kubescape.io"
+	OperatorCommandGroup  string = "seclogic.io"
 	OperatorCommandKind   string = "OperatorCommand"
 	OperatorCommandPlural string = "operatorcommands"
 )

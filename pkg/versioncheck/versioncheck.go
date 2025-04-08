@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/armosec/utils-go/boolutils"
-	"github.com/kubescape/backend/pkg/utils"
+	"github.com/Aryaman6492/backend/pkg/utils"
 	"github.com/kubescape/go-logger"
 	"github.com/kubescape/go-logger/helpers"
 	"github.com/kubescape/kubescape/v3/core/cautils/getter"
@@ -122,7 +122,7 @@ func NewVersionCheckRequest(accountID, buildNumber, frameworkName, frameworkVers
 
 	return &VersionCheckRequest{
 		AccountID:        accountID,
-		Client:           "kubescape",
+		Client:           "seclogic",
 		ClientBuild:      Client,
 		ClientVersion:    buildNumber,
 		ClusterID:        generateClusterID(k8sClient),

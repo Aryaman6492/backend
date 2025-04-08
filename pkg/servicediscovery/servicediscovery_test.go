@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kubescape/backend/pkg/servicediscovery/schema"
-	v1 "github.com/kubescape/backend/pkg/servicediscovery/v1"
-	v2 "github.com/kubescape/backend/pkg/servicediscovery/v2"
+	"github.com/Aryaman6492/backend/pkg/servicediscovery/schema"
+	v1 "github.com/Aryaman6492/backend/pkg/servicediscovery/v1"
+	v2 "github.com/Aryaman6492/backend/pkg/servicediscovery/v2"
 	"github.com/stretchr/testify/assert"
 )
 

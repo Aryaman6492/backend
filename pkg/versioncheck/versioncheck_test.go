@@ -82,11 +82,11 @@ func TestVersionCheckHandler_getLatestVersion(t *testing.T) {
 			},
 			args: args{
 				versionData: &VersionCheckRequest{
-					Client: "kubescape",
+					Client: "seclogic",
 				},
 			},
 			want: &VersionCheckResponse{
-				Client:       "kubescape",
+				Client:       "seclogic",
 				ClientUpdate: "v3.0.15",
 			},
 			wantErr: false,

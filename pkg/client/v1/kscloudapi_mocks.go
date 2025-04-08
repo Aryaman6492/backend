@@ -15,8 +15,8 @@ import (
 	"github.com/armosec/armoapi-go/identifiers"
 	jsoniter "github.com/json-iterator/go"
 
-	backendServer "github.com/kubescape/backend/pkg/server/v1"
-	"github.com/kubescape/backend/pkg/utils"
+	backendServer "github.com/Aryaman6492/backend/pkg/server/v1"
+	"github.com/Aryaman6492/backend/pkg/utils"
 	"github.com/kubescape/opa-utils/reporthandling"
 	"github.com/kubescape/opa-utils/reporthandling/attacktrack/v1alpha1"
 	"github.com/stretchr/testify/assert"

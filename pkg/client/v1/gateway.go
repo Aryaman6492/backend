@@ -3,8 +3,8 @@ package v1
 import (
 	"net/url"
 
-	v1 "github.com/kubescape/backend/pkg/server/v1"
-	"github.com/kubescape/backend/pkg/utils"
+	v1 "github.com/Aryaman6492/backend/pkg/server/v1"
+	"github.com/Aryaman6492/backend/pkg/utils"
 )
 
 func GetRootGatewayUrl(gatewayUrl string) (*url.URL, error) {

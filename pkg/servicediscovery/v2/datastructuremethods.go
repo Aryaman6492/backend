@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/kubescape/backend/pkg/servicediscovery/schema"
-	"github.com/kubescape/backend/pkg/utils"
+	"github.com/Aryaman6492/backend/pkg/servicediscovery/schema"
+	"github.com/Aryaman6492/backend/pkg/utils"
 )
 
 func NewServiceDiscoveryClientV2(url string) (*ServiceDiscoveryClientV2, error) {
