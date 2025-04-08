@@ -33,7 +33,7 @@ require (
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/armosec/gojay v1.2.15 // indirect
-	github.com/armosec/utils-k8s-go v0.0.26 // indirect
+	github.com/Aryaman6492/utils-k8s-go v0.0.26 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.24.1 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.26.6 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.16.16 // indirect
@@ -178,3 +178,4 @@ require (
 
 // TODO(anubhav06): Remove this once we have a release of copacetic with the support for patching kubescape image scan results.
 replace github.com/project-copacetic/copacetic => github.com/anubhav06/copacetic v0.0.0-20230821175613-0a7915a62e10
+replace github.com/Aryaman6492/utils-k8s-go => /home/ripeey/Desktop/cqs-sensor/copycon/utils-k8s-go
